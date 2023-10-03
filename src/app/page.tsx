@@ -8,7 +8,10 @@ const imageUrl =
 export default function Home() {
   return (
     <Container as="main">
-      <div className="flex flex-col items-center gap-6 bg-[#FEFFAC] px-8 py-20">
+      <div className="flex flex-col items-center gap-6 bg-[#f2f4a5] px-8 py-20">
+        <h1 className="font-mono text-xl font-semibold">
+          Welcome to Detective Conan Quiz!!!
+        </h1>
         <Image
           src={imageUrl}
           alt="conan quiz image"

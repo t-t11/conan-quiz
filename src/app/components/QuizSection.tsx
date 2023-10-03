@@ -30,7 +30,8 @@ export default function QuizSection({
 
   useEffect(() => {
     if (selected) {
-      setRandomNumber(getRandomNum());
+      const randomNumber = getRandomNum(slug);
+      setRandomNumber(randomNumber);
     }
   }, [selected, slug]);
 
